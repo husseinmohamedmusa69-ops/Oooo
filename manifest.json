@@ -1,0 +1,65 @@
+{
+  "name": "محراب",
+  "short_name": "محراب",
+  "description": "تطبيق إسلامي شامل يجمع القرآن الكريم، الأذكار، مواقيت الصلاة، التسبيح، القبلة، والأدعية في تجربة عصرية وسهلة الاستخدام.",
+
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+
+  "orientation": "portrait",
+
+  "lang": "ar",
+  "dir": "rtl",
+
+  "background_color": "#0B1220",
+  "theme_color": "#0F172A",
+
+  "categories": [
+    "religion",
+    "lifestyle",
+    "education"
+  ],
+
+  "prefer_related_applications": false,
+
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+
+  "shortcuts": [
+    {
+      "name": "القرآن الكريم",
+      "url": "/?page=quran"
+    },
+    {
+      "name": "الأذكار",
+      "url": "/?page=azkar"
+    },
+    {
+      "name": "مواقيت الصلاة",
+      "url": "/?page=prayer"
+    },
+    {
+      "name": "القبلة",
+      "url": "/?page=qibla"
+    }
+  ]
+}
